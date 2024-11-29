@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/LoginSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             android:hint="Usuario"
             android:inputType="textPersonName"
             />
-    </com.google.android.material.textfield.TextInputLayout
+    </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/LoginPassword"
         android:layout_width="350dp"
@@ -84,5 +84,6 @@
         android:text="Entrar"
         >
     </Button>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
